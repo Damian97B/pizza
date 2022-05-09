@@ -1,0 +1,165 @@
+:root{
+    box-sizing: border-box;
+    color: white;
+}
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2014/08/06/14/27/wood-411643__480.jpg");
+}
+#header{
+    background-color: black;
+    padding: 5px;
+    font-family: 'Cookie', Arial, Helvetica, sans-serif;    
+}
+#logo{
+    float: left;
+    width: 20%;
+}
+#logo img{
+    width: 90px;
+    /* height: 60px; */
+    margin-left: 10px;
+}
+.menu{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 1.4rem;
+}
+.menu ul li a:hover{
+    color: rgb(251, 137, 31);
+}
+.contact-info{
+    float: left;
+    width: 20%;
+}
+.contact-info .tel{
+    font-size: 1.2rem;
+    margin: 20px auto 0px;
+
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.slider-box{
+    height: 200px;
+    background-color: black;
+}
+.slider-half-item{
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-family: cursive, Geneva;
+    padding: 10px;
+}
+.slider-half-item article{
+    margin: 2rem;
+}
+.slider-half-item article .button-section{
+    margin-top: 1rem;
+    float: left;
+}
+.slider-half-item .button{
+    text-transform: uppercase;
+    /* padding: px; */
+    text-decoration: none;
+    /* margin: 8px; */
+    font-size: 0.7rem;
+    white-space: nowrap;    
+}
+.book-button{
+    color: rgb(251, 137, 31);
+    border: solid 2px;  
+}
+.order-button {
+    color: lightblue;
+    border: solid 2px;
+}
+.order-button:hover, .book-button:hover{
+    background-color: rgb(47, 42, 42);
+}
+.pizza-img{
+    background-image: url("https://cdn.pixabay.com/photo/2021/09/02/13/36/pizza-6593504__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.advantages-box{
+    background-color: transparent;
+}
+.advantages-one-third{
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px 30px;
+}
+.column-advantage{
+    position: relative;
+    height: 160px;
+    border: 5px solid black;
+    text-align: center;
+    color: white;
+}
+.best-ingredients{
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/11/13/26/tomatoes-321671__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.original-recipe{
+    background-image: url("https://media.istockphoto.com/photos/adding-olive-oil-to-raw-dough-closeup-picture-id638859034?b=1&k=20&m=638859034&s=170667a&w=0&h=y5SoYVejQpwF7DYTSqqxJ1QOPQyf_Z7g-MtfY6cKxGQ=");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.fast-delivery{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/30/14/10/delivery-guy-1424808__340.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.column-advantage span{
+    background-color: rgb(47, 42, 42, 0.7);
+}
+.kitchen-menu{
+    background-color: rgb(47, 42, 42, 0.5);
+}
+.menu-one-forth{
+    width: 33.3%;
+    float: left;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.menu-one-forth img{
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.bottom-right{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgb(47, 42, 42, 0.7);
+}
+.title span{
+    font-size: 20px;
+}
+.page-footer {
+    width: 100%;
+    background-color: black;
+    font-family: Cookie, cursive;
+}
